@@ -1,0 +1,88 @@
+.product-details-container {
+  padding: 20px;
+  text-align: center;
+  background-image: url(pexels-fwstudio-33348-168447.jpg);
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px; /* Rounded edges for inputs */
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+/* Smaller Add/Update button */
+.input-section button {
+  padding: 5px 10px; /* Reduced padding for smaller size */
+  font-size: 12px;   /* Smaller font size */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px; /* Rounded button */
+  width: 100px; /* Set a smaller width */
+}
+
+.input-section button:hover {
+  background-color: #45a049;
+}
+
+.products-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.product-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-card button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.product-card button:hover {
+  background-color: #005f73;
+}
+
+.product-card button:nth-child(2) {
+  background-color: #f44336; /* Red color for delete button */
+}
+
+.product-card button:nth-child(2):hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}

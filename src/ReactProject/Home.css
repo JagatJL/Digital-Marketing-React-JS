@@ -1,0 +1,236 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    /* background-image: url(HomeBG.jpg); */
+
+    background-size: cover;
+  }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    opacity: 80%;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 40px;
+  }
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+.navbar-links a:hover {
+    text-decoration: underline;
+  }
+.hero-section {
+    background-color: rgb(84, 83, 83);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+.cta-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:bold;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .cta-button:hover {
+    background-color: white;
+    color: black;
+  }
+  .services-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+.service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .service-image {
+    width: 100%; 
+    height: auto;
+    border-radius: 5px;  
+    margin-bottom: -50px;  
+    scale: 0.5;
+    margin-top: -60px;
+  }
+  .service-image2 {
+    width: 100%;  
+    height: auto;
+    margin-top: -90px;
+    border-radius: 5px;  
+    margin-bottom: -80px;   
+    scale: 0.6;
+  }
+  .service-image3 {
+    width: 100%;  
+    height: auto;
+    border-radius: 5px;  
+    margin-bottom: 30px;   
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+.service-item p {
+    font-size: 16px;
+  }
+.seo-details {
+    background-color: #e8f0fe;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+.seo-details h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+.seo-details p {
+    font-size: 18px;
+  }
+  .explore-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .explore-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-content {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .explore-button:hover {
+    background-color: #1558b3;
+  }
+  .reviews-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .reviews-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .review-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+.review-stars {
+    font-size: 24px;
+    
+    color: #ffcc00;
+    margin-right: 10px;
+  }
+.review-list {
+    display: flex;
+    justify-content: space-around;
+  }
+.review-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+.review-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+.review-card p {
+    font-size: 16px;
+    color: #555;
+  }
+.review-card:hover {
+    transform: translateY(-10px);
+  }
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

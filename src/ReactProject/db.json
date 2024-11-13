@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "f981",
+      "username": "Jagat J L",
+      "email": "jljagat2028@gamil.com",
+      "password": "jagat123"
+    },
+    {
+      "id": "21d6",
+      "username": "iamNeo",
+      "email": "iamneo@gmail.com",
+      "password": "iamneo"
+    }
+  ],
+  "products": [
+    {
+      "0": {
+        "id": 1,
+        "name": "SEO Services",
+        "description": "Boost your website traffic with our expert SEO strategies.",
+        "price": 100
+      },
+      "1": {
+        "id": 2,
+        "name": "Social Media Marketing",
+        "description": "Grow your brand with targeted social media campaigns.",
+        "price": 150
+      },
+      "2": {
+        "id": 3,
+        "name": "Email Marketing",
+        "description": "Reach your audience with personalized email marketing.",
+        "price": 200
+      },
+      "id": "c332"
+    }
+  ]
+}
